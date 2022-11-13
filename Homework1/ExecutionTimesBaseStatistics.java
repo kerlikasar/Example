@@ -13,7 +13,7 @@ public ExecutionTimesBaseStatistics(final List<Double> executionTimes) {
     @Override
     public void displayStatistics() {
         final StringBuilder stringBuilder = new StringBuilder();
-        executionTimes.forEach(executionTime -> stringBuilder.append("Execution time is - ").append(" \n"));
+        executionTimes.forEach(executionTime -> stringBuilder.append("Execution time - ").append(" \n"));
         System.out.println(stringBuilder.toString());
 
     }
